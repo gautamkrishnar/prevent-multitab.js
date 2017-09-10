@@ -1,0 +1,29 @@
+{
+  "name": "prevent-multitab.js",
+  "version": "1.0.0",
+  "description": "Javascript library to prevent opening of web application in multiple browser tabs.",
+  "main": "./src/prevent-multitab.js",
+  "scripts": {
+    "test": "echo no tests specified...",
+    "build": "browserify ./src/prevent-multitab.js --o ./dist/prevent-multitab.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gautamkrishnar/naughtychecker.js.git"
+  },
+  "keywords": [
+    "prevent",
+    "multiple",
+    "tabs"
+  ],
+  "author": "Gautam krishna R <r.gautamkrishna@gmail.com> (http://www.github.com/gautamkrishnar)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/gautamkrishnar/prevent-multitab.js/issues"
+  },
+  "homepage": "https://github.com/gautamkrishnar/prevent-multitab.js/issues#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^14.4.0"
+  }
+}
